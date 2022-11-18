@@ -1,0 +1,125 @@
+/*Colors and fonts*/
+
+body{
+background: #F0EBCE;
+color: #3C2317;
+font-family: 'Lora', serif;
+font-size: 17px;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #395144;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+h2{
+	color: #4E6C50;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+a{text-decoration: none;
+font-family: 'Roboto', sans-serif;
+color: #AA8B56;
+font-weight: bolder;
+}
+a:hover{
+	color: #CFB997;
+}
+
+/*custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px #AA8B56;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-rectangle {
+	border-radius: 5px;
+}
+.btn-brown {
+	background-color: #AA8B56;
+	color:white;
+	padding: 20px 10px;
+	border-radius: 5px;
+}
+
+.btn-brown:hover {
+	background-color:#395144;
+	color:white;
+}
+
+.btn-brown2 {
+	background-color: #F0EBCE;
+	color:#395144;
+	padding: 10px 5px;
+	border-radius: 5px;
+}
+
+.btn-brown2:hover {
+	background-color:#395144;
+	color:white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: : 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	background-color:#395144;
+}
+
+/*Design adjustemnts using id */ 
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#info1 p {
+	margin-bottom: 40px;
+}
+
+#info2 p {
+	margin-bottom: 40px;
+}
+
+#info3 p{
+	margin-bottom: 40px;
+}
